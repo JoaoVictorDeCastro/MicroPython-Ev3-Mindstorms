@@ -40,7 +40,7 @@ while True:
     else:
         robot.straight(200)
         robot.straight(-200)
-while robot.distance() >= 500:
+while robot.distance() >= 500: 
     robot.drive(-200,0)
 robot.stop()
 right.brake()
